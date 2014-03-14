@@ -24,3 +24,8 @@ According to the structure and our lab requirement, we have the following files.
 - ../rtx_lib/ARM/RTX_CM4.lib
 - ../RTX_Conf_CM.c
 - ../main.c
+
+## Concepts
+
+## Approach
+
