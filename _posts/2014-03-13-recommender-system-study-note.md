@@ -7,21 +7,22 @@ tags: [intro, beginner, tutorial, note]
 ---
 {% include JB/setup %}
 
-This is a note of important points highlighted when I learned about Recommander System. I was about to join the competition 
+This is a note of important points highlighted when I learned about recommender System. I was about to join the competition 
 
 ## Overview
 
-### What is Recommander System?
+### What is Recommender System?
 
-The Recommander System is envolved some algorithms able to proceed based on huge amount of data, and then determine some possible recommandations based on the browsing history. Those recommandations could be anything related specific their websites or products. For example, the Amazon may recommands some similar books, Youtube may recommands some videos to users.
+The recommender System is envolved some algorithms able to proceed based on huge amount of data, and then determine some possible recommendations based on the browsing history. Those recommendations could be anything related specific their websites or products. For example, the Amazon may recommends some similar books, Youtube may recommends some videos to users.
 
 ## Approaches
 
 ### Collaborative filtering
 
-This method is based on collecting and analyzing large amount user history data, like browsing，shopping history, then compare to similar users for predicting. The concept is about similar users should have similar preference. A good example should be facebook friends recommandation. If two people shares many mutal friends, then these two should possible know each other.
+This method is based on collecting and analyzing large amount user history data, like browsing，shopping history, then compare to similar users for predicting. The concept is about similar users should have similar preference. A good example should be facebook friends recommendation. If two people shares many mutal friends, then these two should possible know each other.
 
 #### Algorithms 
+
 - Matrix Factroization
 - Low-rank Matrix Approximation
 
@@ -33,4 +34,16 @@ This method is based on a description of item or a profile of user's preference.
 - Bayesian Classifiers
 - Cluster Analysis
 - Decision Trees
-- Artificial Neural Networks  
+- Artificial Neural Networks
+
+### Hybrid Recommender System
+
+This is a simply the combination of collaborative filtering and content-based filtering. This method has been demonstrated is more effective in some cases. There are several ways to hybrid the result of the collaborative filtering and content-based filtering.
+
+## Performance Measures
+
+There are some categories to measure the accuracy of recommendation result. The Recall rate and Precision is going to use in this competition.
+
+## My Approach
+
+Based on the material given by Alibaba, I have accesss to user id, brand id, users' action(Click, Star, Add to backet, and Buy), and date. I choose to starting from collaborative filtering method. Since the brand id failed to demonstrate relationships between brands. I have to analysis the similarity between users and make predicts.
