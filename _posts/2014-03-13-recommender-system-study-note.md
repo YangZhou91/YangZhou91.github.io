@@ -47,3 +47,9 @@ There are some categories to measure the accuracy of recommendation result. The 
 ## My Approach
 
 Based on the material given by Alibaba, I have accesss to user id, brand id, users' action(Click, Star, Add to backet, and Buy), and date. I choose to starting from collaborative filtering method. Since the brand id failed to demonstrate relationships between brands. I have to analysis the similarity between users and make predicts.
+
+In the next post, I am going to write more details about Collaborative filtering.
+
+
+
+
