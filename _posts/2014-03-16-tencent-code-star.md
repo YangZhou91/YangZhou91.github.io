@@ -15,3 +15,6 @@ Anyway, I have to start to earn some credits for the furture job.
 
 ## Overview
 
+This the Season one of the Code Star. From my understanding, this about the front-end of trouble shooting and problem solving skills of Web. It can be tell from the organizer of the game. It is called Tencent Alloy Team(腾讯Web前端团队).
+
+## Walking through 
