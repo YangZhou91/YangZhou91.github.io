@@ -38,4 +38,4 @@ After you get a potential website, here is where SQLMap comes. Open the command,
 sqlmap -u www.sitename.com/php?id=1 --dbs
 {% endhighlight%}
 
-
+Disclaimer: All the tools and methods described in this tutorial are shown for educational purposes and should not be used for any short of illegal action.
