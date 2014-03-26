@@ -22,7 +22,7 @@ This the Season one of the Code Star. From my understanding, this about the fron
 
 ## Walking through
 
-Here is the link to the game page(http://codestar.alloyteam.com/q1/).
+Here is the link to the <a href = "http://codestar.alloyteam.com/q1/">game page</a>.
 
 ### Step 1
 
