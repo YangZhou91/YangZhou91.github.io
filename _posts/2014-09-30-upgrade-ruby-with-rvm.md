@@ -53,6 +53,10 @@ After upgrade, I have Ruby v2.1.4 installed
 {% highlight bash%}
 ruby 2.1.4p247 (2014-09-24 revision 47703) [x86_64-darwin13.0]
 {% endhighlight%}
+Finally, use the rvm to set the default environment of the Ruby
+{% highlight bash%}
+$ rvm --default use ruby-2.1-head
+{% endhighlight%}
 
 ## Upgrade Rails by using Gem
 To check the version of Rails:
