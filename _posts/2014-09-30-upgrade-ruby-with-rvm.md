@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Upgrade Ruby with RVM on MacOS"
+title: "Upgrade Ruby, and Rails with RVM on MacOS"
 description: ""
 category: 
 tags: []
@@ -10,7 +10,8 @@ tags: []
 Operation System: Mavericks -  MacOS 10.9.5 
 
 [RVM](http://rvm.io): installed
-
+[GEM]():installed
+## Upgrade Ruby 
 First, check the most recent available version of Ruby:
 {% highlight bash %}
 $ rvm list known
@@ -53,4 +54,30 @@ After upgrade, I have Ruby v2.1.4 installed
 ruby 2.1.4p247 (2014-09-24 revision 47703) [x86_64-darwin13.0]
 {% endhighlight%}
 
-Reference: [Upgrade Ruby Version on Mac OSX](http://techespanto.wordpress.com/2013/03/29/upgrade-ruby-version-on-mac-osx/)
+## Upgrade Rails by using Gem
+To check the version of Rails:
+{% highlight bash%}
+$ rails -v
+{% endhighlight%}
+To check the version of Gem:
+
+I have 'Rails 4.0.2' installed. The [Offical Website](http://rubyonrails.org) has Version 4.1 available.
+{% highlight bash%}
+$ gem -v
+{% endhighlight%}
+The version of gem is '2.1.11', to update gem manager:
+{% highlight bash%}
+$ gem update --system
+{% endhighlight%}
+It takes me to the version 2.4.1
+
+To upgrade the Rails, use the following command:
+{% highlight bash%}
+$ gem update
+{% endhighlight%} 
+It takes a while to update all outdated gems. After upgrade, I have Rails with version 4.1.6.
+
+##References: 
+1. [Upgrade Ruby Version on Mac OSX](http://techespanto.wordpress.com/2013/03/29/upgrade-ruby-version-on-mac-osx/)
+
+2. [Updating to Rails 4.2](http://railsapps.github.io/updating-rails.html)
