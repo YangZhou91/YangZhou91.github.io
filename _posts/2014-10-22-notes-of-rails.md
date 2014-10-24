@@ -11,3 +11,8 @@ Start passenger server with rbenv
 {% highlight Ruby %}
 	rbenv sudo passenger start -p 80 -e production
 {% endhighlight %}
+
+Precompile assets for javascript showing in production environment
+{% highlight Ruby%}
+	rake assets:precompile
+{% endhighlight %}
