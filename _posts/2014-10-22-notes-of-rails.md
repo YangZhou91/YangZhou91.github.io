@@ -3,7 +3,7 @@ layout: post
 title: "Notes of Ruby on Rails"
 description: ""
 category: [Installation]
-tags: [Ruby, Rails]
+tags: [Ruby on Rails]
 ---
 {% include JB/setup %}
 
