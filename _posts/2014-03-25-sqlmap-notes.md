@@ -2,7 +2,7 @@
 layout: post
 title: "SQLMap notes"
 description: "This is a study note got SQLmap tool"
-category: Hack, Database
+category: [Notes]
 tags: [Hack, Database]
 ---
 {% include JB/setup %}

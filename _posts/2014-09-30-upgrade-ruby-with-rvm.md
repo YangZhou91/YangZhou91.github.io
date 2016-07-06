@@ -2,8 +2,8 @@
 layout: post
 title: "Upgrade Ruby, and Rails with RVM on MacOS"
 description: ""
-category: 
-tags: []
+category: [Notes]
+tags: [Web]
 ---
 {% include JB/setup %}
 
